@@ -1,0 +1,12 @@
+{
+  "name": "my-serverless-website",
+  "version": "1.0.0",
+  "description": "A simple serverless website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.814.0"
+  }
+}
