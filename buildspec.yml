@@ -10,5 +10,5 @@ phases:
       - sam build
   post_build:
     commands:
-      - sam package --s3-bucket skydemonew  --output-template-file packaged.yaml
+      - sam package --s3-bucket skydemonew1  --output-template-file packaged.yaml
       - sam deploy --template-file packaged.yaml --stack-name skydemostack --capabilities CAPABILITY_IAM
